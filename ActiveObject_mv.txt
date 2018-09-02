@@ -175,6 +175,7 @@ int main()
 	std::cout << "\n" << std::endl;
 	std::cout << "+[2] ADDING second MESSAGE IN MESSAGE QUEUE" << std::endl;
 	proxy.put("Message21");
+
 	system("pause");
 
 	return 0;
